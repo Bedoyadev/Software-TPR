@@ -24,40 +24,26 @@ Integración de Pagos: Soporte para tarjetas de crédito, débito y billeteras e
 Administración de Mesas: Panel para administradores y recepcionistas para visualizar, asignar y liberar mesas en tiempo real.
 
 --------------------------------------------------------------------------------------------------------------------------
-⚙️ Instalación y Configuración (Configuración Básica)
-Estos son los pasos fundamentales para preparar tu entorno de trabajo una vez que el código ha sido descargado.
+⚙️ Instalación y Configuración (Rápida)
+Para poner el proyecto en marcha, sigue estos 3 pasos esenciales:
 
-1. Requisitos Previos
-Asegúrate de tener instalado:
-
-Git 
-
-Python y/o PHP/Composer (según la parte del backend que vayas a trabajar).
-
-Un servidor de base de datos MySQL.
-
-2. Puesta en Marcha
-A. Clonación y Acceso al Repositorio
-Abre tu terminal y ejecuta los siguientes comandos:
+1. Clonar el Repositorio
+Abre tu terminal y descarga el código:
 
 git clone [URL_DE_TU_REPOSITORIO]
 cd Sistema-Reservas
-B. Instalación de Dependencias
-Instala todas las librerías necesarias para el proyecto. Si el proyecto usa tanto Python como PHP, ejecuta ambos comandos (solo los que apliquen a la parte que vas a ejecutar):
+2. Instalar y Configurar
+Instala las dependencias necesarias y configura las variables de entorno:
 
-# 1. Para dependencias de Python (si aplica)
+Instalar dependencias:
+# Para Python
 pip install -r requirements.txt
 ----------------------------------------------------------------------------------------------------------------------------
 👥 Creadores y Colaboradores
 Este proyecto está siendo desarrollado por el siguiente equipo:
 
-
 Juan David Gonzalez Bedoya 
-
 Santiago Alexander Mejía Leyton 
-
 Juan Camilo Perez 
-
 Juan Felipe Silva 
-
 Monica Dueñas
