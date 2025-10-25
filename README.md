@@ -30,7 +30,7 @@ Para poner el proyecto en marcha, sigue estos 3 pasos esenciales:
 1. Clonar el Repositorio
 Abre tu terminal y descarga el código:
 
-git clone [URL_DE_TU_REPOSITORIO]
+git clone [https://github.com/Bedoyadev/Software-TPR.git]
 cd Sistema-Reservas
 2. Instalar y Configurar
 Instala las dependencias necesarias y configura las variables de entorno:
