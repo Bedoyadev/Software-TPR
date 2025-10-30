@@ -1,0 +1,145 @@
+/* Importamos la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Reinicio básico */
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background: url('../images/fondo.jpg');
+    background-size: cover;
+    
+}
+h3{ 
+    text-align: center;
+    color: var(--blanco);
+    font-size: 40px;
+    margin-top: 80px;
+   
+} 
+button {
+    font-family: 'Bebas Neue', sans-serif;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.menu-contenedor {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    margin: 60px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 80, 85, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+
+/* Contenedor tipo app */
+.menu-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: rgb(151, 139, 139);
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/* Barra superior */
+.barra-superior {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+/* Botones superiores */
+.atras-btn, .menu-btn {
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Categorías */
+.category {
+    width: 46%;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.2);
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+}
+    a{
+        text-decoration: none;
+        
+    }
+
+.category img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category a {
+    font-size: 30px;
+}
+
+/* Botón Reservar */
+.reservar-btn {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;
+    font-size: 44px;
+    border: none;
+    background-color: #99181F;
+    color: white;
+    margin-bottom: 60px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* Menú Inferior */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    background: rgb(255, 255, 255);
+    
+}
+
+.nav-btn {
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
